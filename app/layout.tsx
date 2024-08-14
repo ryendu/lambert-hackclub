@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-
+import { LHDock } from "@/components/dock";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -16,7 +16,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div className="w-screen h-screen relative">
+          {children}
+          <LHDock className="bottom-10 fixed left-1/2 transform -translate-x-1/2" />{" "}
+        </div>
+      </body>
     </html>
   );
 }
