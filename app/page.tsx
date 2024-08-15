@@ -55,7 +55,7 @@ const slugs = [
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-between p-16 pt-24 max-w-7xl">
+    <main className="flex flex-col items-center justify-between p-16 pt-24 max-w-7xl my-auto">
       <Dialog>
         <div className="w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex -z-10">
           <Image
