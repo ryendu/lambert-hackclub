@@ -65,6 +65,14 @@ export default function Home() {
             width={150}
             height={150}
           ></Image>
+
+          <Image
+            className="fixed right-5 top-3 flex justify-center -z-50"
+            src="/lhclogo.png"
+            alt="lambert hack club logo"
+            width={60}
+            height={60}
+          ></Image>
         </div>
 
         <div className="gap-6 flex flex-col py-20 md:py-0">
