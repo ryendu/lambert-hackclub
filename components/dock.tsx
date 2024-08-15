@@ -70,32 +70,29 @@ const Icons = {
 };
 
 const DATA = {
-  navbar: [
-    { href: "#", icon: HomeIcon, label: "Home" },
-    { href: "#", icon: PencilIcon, label: "Blog" },
-  ],
+  navbar: [{ href: "#", icon: HomeIcon, label: "Home" }],
   contact: {
     social: {
-      GitHub: {
-        name: "GitHub",
-        url: "#",
-        icon: Icons.github,
-      },
+      //   GitHub: {
+      //     name: "GitHub",
+      //     url: "#",
+      //     icon: Icons.github,
+      //   },
       Instagram: {
         name: "Instagram",
-        url: "#",
+        url: "https://www.instagram.com/lamberthackclub?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
         icon: Icons.instagram,
       },
       GroupMe: {
         name: "GroupMe",
-        url: "#",
+        url: "https://groupme.com/join_group/62533963/Wc2Gk9nD",
         icon: Icons.groupme,
       },
-      email: {
-        name: "Send Email",
-        url: "#",
-        icon: Icons.email,
-      },
+      //   email: {
+      //     name: "Send Email",
+      //     url: "#",
+      //     icon: Icons.email,
+      //   },
     },
   },
 };
