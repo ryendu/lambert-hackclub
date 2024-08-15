@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="w-screen h-screen relative">
+        <div className="w-screen h-screen relative flex justify-center items-center">
           {children}
           <LHDock className="bottom-10 fixed left-1/2 transform -translate-x-1/2 z-50 bg-white opacity-90 backdrop-blur-3xl shadow-2xl" />{" "}
         </div>
